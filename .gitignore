@@ -1,0 +1,30 @@
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+.claude/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 调试输出
+debug/
+
+# 大文件（模型权重和训练数据不上传，太大）
+models/*.pth
+models/*.pkl
+templates/*.pkl
+
+# 数据集（太大）
+CCPD2020/
